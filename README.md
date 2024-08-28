@@ -22,7 +22,7 @@ ou crie seu próprio arquivo com o seguinte script, e depois siga o procedimento
 import google.generativeai as genai
 import textwrap
 
-GOOGLE_API_KEY="AIzaSyDpmDss_0U5j34sI5m6fCa-IqLG8mP5rJI"
+GOOGLE_API_KEY="--------" #insira sua API KEY
 genai.configure(api_key=GOOGLE_API_KEY)
 
 #Listar os modelos disponíveis
